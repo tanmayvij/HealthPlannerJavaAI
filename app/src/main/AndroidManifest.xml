@@ -1,0 +1,56 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tanmayvij.healthplanner">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainScreen" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity android:name=".Credits" />
+        <activity android:name=".AboutDev" />
+        <activity android:name=".AboutApp" />
+
+        <activity android:name=".Acidity" />
+        <activity android:name=".Anemia" />
+        <activity android:name=".Arthritis" />
+        <activity android:name=".Cardiac" />
+        <activity android:name=".Cataract" />
+        <activity android:name=".Cholera" />
+        <activity android:name=".Cold" />
+        <activity android:name=".Dengue" />
+        <activity android:name=".Diabetes" />
+        <activity android:name=".Diarrhoea" />
+        <activity android:name=".Fever" />
+        <activity android:name=".Hypertension" />
+        <activity android:name=".Influenza" />
+        <activity android:name=".Jaundice" />
+        <activity android:name=".Malaria" />
+        <activity android:name=".Tuberculosis" />
+        <activity android:name=".Typhoid" />
+
+        <activity android:name=".z110001" />
+        <activity android:name=".z110005" />
+        <activity android:name=".z110015" />
+        <activity android:name=".z110016" />
+        <activity android:name=".z110017" />
+        <activity android:name=".z110018" />
+        <activity android:name=".z110027" />
+        <activity android:name=".z110034" />
+        <activity android:name=".z110058" />
+        <activity android:name=".z110063" />
+        <activity android:name=".z110085" />
+        <activity android:name=".z110087" />
+    </application>
+</manifest>
